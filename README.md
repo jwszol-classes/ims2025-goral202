@@ -95,23 +95,23 @@ This project demonstrates how Apache Spark can be utilized to efficiently proces
 ## Visualization Results
 
 ### Anomaly Detection
-![Anomaly Detection](images\anomalies.png)
+![Anomaly Detection](images/anomalies.png)
 
 ### Prediction Examples
 
 These examples demonstrate the model's ability to predict the next hour's electricity consumption based on the previous three hours. The results highlight the model's effectiveness in short-term forecasting, though further refinements could improve its accuracy.
 
-![Prediction 1](images\2015_01.png)
-![Prediction 2](images\2016_10.png)
-![Prediction 3](images\2017_05.png)
-![Prediction 4](images\2018_12.png)
-![Prediction 5](images\2019_12.png)
-![Prediction 6](images\2020_01.png)
+![Prediction 1](images/2015_01.png)
+![Prediction 2](images/2016_10.png)
+![Prediction 3](images/2017_05.png)
+![Prediction 4](images/2018_12.png)
+![Prediction 5](images/2019_12.png)
+![Prediction 6](images/2020_01.png)
 
 ### Full-Day Prediction
 The model was used to predict energy consumption for an entire day based only on the first three consumption values of that day. The results show that while the model was too simple and lacked sufficient feature complexity to provide highly accurate predictions, it was able to capture general daily trends. Specifically, it correctly identified the tendency of electricity consumption to be higher during the day and lower at night. This suggests that while the model captures broad consumption patterns, further improvements are necessary to enhance its predictive accuracy.
 
-![Full-Day Prediction](images\pred.png)
+![Full-Day Prediction](images/pred.png)
 
 
 ### Future Work
